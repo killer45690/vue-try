@@ -1,0 +1,39 @@
+@import "src/assets/scss/var.scss";
+@import "src/assets/scss/global.scss";
+
+.singleView_box{
+  padding: $content-padding;
+}
+.is_Danger{
+  color: $color-Danger;
+}
+.is_Warning{
+  color: $color-Warning;
+}
+.is_normal{
+  color: $color-normal;
+}
+.singleView_text_box{
+  background-color: white;
+  border-radius: 15px;
+  border: 2px solid #eeeeee;
+}
+.el-tag{
+  font-size: large;
+}
+.el-page-header{
+  background-color: white;
+  padding: 1%;
+  border-radius: 15px 15px 0 0;
+  border-bottom: 2px solid #eeeeee;
+}
+.text_box{
+  padding: 2%;
+  p{
+    padding: 15px;
+  }
+}
+.button{
+  text-align: right;
+  padding: 0 20px 0;
+}

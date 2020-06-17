@@ -1,0 +1,50 @@
+@import "src/assets/scss/var.scss";
+@import "src/assets/scss/global.scss";
+
+.HeaderMenu{
+  position: fixed;
+  width: 100%;
+  @include layout;
+  z-index: 100;
+}
+
+.header-menu{
+  width: 100%;
+  line-height: $header-height;
+  height: $header-height;
+  @include box-shadow($box-shadow);
+
+  .el-menu-item{
+    height: $header-height;
+    font-size: $font-size-header;
+  }
+
+}
+
+
+.header-menu-icon {
+
+  img{
+    padding-right: 10%;
+    @include icon(($header-height / 3) * 2, $color-black);
+    vertical-align: middle;
+  }
+  span{
+    font-size: $font-size-logo;
+  }
+}
+.is_Danger{
+
+  color: $color-Danger;
+
+}
+.is_Warning{
+
+  color: $color-Warning;
+
+}
+.is_normal{
+
+  color: $color-normal;
+
+}

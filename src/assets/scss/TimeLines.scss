@@ -1,0 +1,27 @@
+@import "src/assets/scss/var.scss";
+@import "src/assets/scss/global.scss";
+
+.TimeLines_box{
+  padding: $content-padding;
+}
+.el-timeline{
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+
+}
+.is_Danger{
+
+  color: $color-Danger;
+
+}
+.is_Warning{
+
+  color: $color-Warning;
+
+}
+.is_normal{
+
+  color: $color-normal;
+
+}

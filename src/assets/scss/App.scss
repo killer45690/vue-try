@@ -1,0 +1,13 @@
+@import "src/assets/scss/var.scss";
+@import "src/assets/scss/global.scss";
+#app{
+  background: $theme-background-color;
+  min-height: 1080px;
+
+  @include layout(flex-start, stretch, column)
+}
+.music-content {
+  width: 100%;
+  margin-top: 100px;
+  flex: 1;
+}

@@ -1,0 +1,84 @@
+@import "var.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+//ul,
+//li {
+//  list-style: none;
+//  display: inline-block;
+//}
+
+html {
+  min-width: 1200px;
+  font-size: 14px;
+}
+
+div {
+  box-sizing: content-box;
+}
+
+/*表单*/
+.el-select-dropdown__item {
+  display: block !important;
+}
+
+/*轮播图*/
+.el-scrollbar__view,
+.el-select-dropdown__list {
+  width: 100% !important;
+  text-align: center;
+}
+
+.el-header{
+  width: 100% !important;
+  padding: 0 !important;
+}
+.el-drawer{
+  overflow: scroll !important;
+}
+.el-drawer__container ::-webkit-scrollbar {
+  display: none;
+}
+//.el-carousel__indicators,
+//.el-carousel__indicators--outside {
+//  display: inline-block;
+//  margin-left: 500px !important;
+//}
+//
+//.el-slider__runway {
+//  background-color: $color-blue !important;
+//}
+
+.el-submenu{
+  .el-submenu__title{
+    height: $header-height !important;
+    font-size: $font-size-header;
+  }
+  height: $header-height;
+  font-size: $font-size-header;
+}
+.el-radio.is_normal.is-bordered.is-checked{
+  background-color: $color-normal ;
+  border-color: white;
+  .el-radio__label{
+    color: white;
+  }
+}
+.el-radio.is_Warning.is-bordered.is-checked{
+  background-color: $color-Warning ;
+  border-color: white;
+  .el-radio__label{
+    color: white;
+  }
+}
+.el-radio.is_Danger.is-bordered.is-checked{
+  background-color: $color-Danger ;
+  border-color: white;
+  .el-radio__label{
+    color: white;
+  }
+}
+

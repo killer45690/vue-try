@@ -1,0 +1,34 @@
+@import "src/assets/scss/var.scss";
+@import "src/assets/scss/global.scss";
+
+.ImportantView_box {
+  padding: $content-padding;
+}
+.el-col{
+  padding: 10px;
+}
+.grid-content{
+  width: 100%;
+  height: 300px;
+}
+.el-card{
+  border-radius: 15px;
+  box-shadow: $box-shadow;
+  width: 100%;
+  height: 100%;
+}
+.is_Danger{
+
+  color: $color-Danger;
+
+}
+.is_Warning{
+
+  color: $color-Warning;
+
+}
+.is_normal{
+
+  color: $color-normal;
+
+}

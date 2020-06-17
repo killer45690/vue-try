@@ -1,0 +1,44 @@
+@import "src/assets/scss/var.scss";
+@import "src/assets/scss/global.scss";
+
+.Home_carousel{
+
+}
+.el-carousel__item{
+  background-color: #2aa3ef;
+  border-radius: 15px;
+  box-shadow: $box-shadow;
+}
+.grid_content{
+  width: 100%;
+  height: 300px;
+  //border-radius: 15px;
+  //box-shadow: $box-shadow;
+}
+.el-col{
+  .grid_img{
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: $box-shadow;
+    background-color: white;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit:cover;
+    }
+  }
+}
+.el-card{
+  width: 100%;
+  height: 100%;
+}
+.bg-purple{
+  background-color: #9a6e3a;
+}
+.content_box{
+  padding: $content-padding;
+}
+.el-row{
+  margin-top: 5%;
+}
